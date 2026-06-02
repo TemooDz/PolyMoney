@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python -c \"import requests; print\\('requests ok'\\)\" 2>&1; python -c \"import dotenv; print\\('dotenv ok'\\)\" 2>&1)",
+      "Bash(python polymarket_tracker.py)"
+    ]
+  }
+}
